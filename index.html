@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Number Guesser</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body onload ="init()">
+        <h1>Number Guesser</h1>
+        <form>
+            <fieldset>
+            <div id ="output"> Im thinking of a number between 0 and 100 try to guess my number. I will tell you if your number is too High, Low, or Correct.</div>
+            <label for = "">Your Guess</label>
+            <input type = "text" id="txtGuess">
+            <button type = "button" onclick="checkGuess()">Check your Guess</button>
+            <button type = "button" onclick="init()" id="again">Try Again</button>
+            </fieldset>
+            </form>
+            </body>
+</html>
